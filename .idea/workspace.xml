@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1b18f14-d2fd-41b4-940a-31e7baac4321" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/anasizeWireshark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scanbanner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +32,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.anasizeWireshark">
+  <component name="RunManager" selected="Python.scanbanner">
     <configuration name="anasizeWireshark" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonHack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,6 +77,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="scanbanner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonHack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scanbanner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="urllib-test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonHack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.scanbanner" />
         <item itemvalue="Python.anasizeWireshark" />
         <item itemvalue="Python.blast_zip" />
         <item itemvalue="Python.urllib-test" />
@@ -123,7 +145,9 @@
       <workItem from="1597974072286" duration="70000" />
       <workItem from="1598494825854" duration="697000" />
       <workItem from="1599612051642" duration="2000" />
-      <workItem from="1600085350928" duration="2275000" />
+      <workItem from="1600085350928" duration="2581000" />
+      <workItem from="1600088077231" duration="44000" />
+      <workItem from="1600503227024" duration="1611000" />
     </task>
     <servers />
   </component>
@@ -152,46 +176,50 @@
       <screen x="36" y="23" width="1756" height="1097" />
     </state>
     <state x="703" y="333" key="FileChooserDialogImpl/36.23.1756.1097@36.23.1756.1097" timestamp="1597765552095" />
-    <state width="1710" height="537" key="GridCell.Tab.0.bottom" timestamp="1600087041178">
-      <screen x="38" y="23" width="1754" height="1097" />
+    <state width="1750" height="333" key="GridCell.Tab.0.bottom" timestamp="1600504949574">
+      <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state width="848" height="317" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1597915184302" />
+    <state width="1750" height="333" key="GridCell.Tab.0.bottom/0.23.1792.1050@0.23.1792.1050" timestamp="1600504949574" />
     <state width="1710" height="373" key="GridCell.Tab.0.bottom/34.23.1758.1097@34.23.1758.1097" timestamp="1597822749195" />
     <state width="1710" height="303" key="GridCell.Tab.0.bottom/36.23.1756.1097@36.23.1756.1097" timestamp="1597765780233" />
     <state width="1710" height="303" key="GridCell.Tab.0.bottom/37.23.1755.1097@37.23.1755.1097" timestamp="1597765188362" />
-    <state width="1710" height="537" key="GridCell.Tab.0.bottom/38.23.1754.1097@38.23.1754.1097" timestamp="1600087041178" />
+    <state width="1710" height="424" key="GridCell.Tab.0.bottom/38.23.1754.1097@38.23.1754.1097" timestamp="1600087976216" />
     <state width="1710" height="537" key="GridCell.Tab.0.bottom/39.23.1753.1097@39.23.1753.1097" timestamp="1600086679418" />
-    <state width="1710" height="373" key="GridCell.Tab.0.bottom/40.23.1752.1097@40.23.1752.1097" timestamp="1597896495992" />
-    <state width="1710" height="537" key="GridCell.Tab.0.center" timestamp="1600087041177">
-      <screen x="38" y="23" width="1754" height="1097" />
+    <state width="1710" height="212" key="GridCell.Tab.0.bottom/40.23.1752.1097@40.23.1752.1097" timestamp="1600088121745" />
+    <state width="1750" height="333" key="GridCell.Tab.0.center" timestamp="1600504949574">
+      <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state width="848" height="317" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1597915184301" />
+    <state width="1750" height="333" key="GridCell.Tab.0.center/0.23.1792.1050@0.23.1792.1050" timestamp="1600504949574" />
     <state width="1710" height="373" key="GridCell.Tab.0.center/34.23.1758.1097@34.23.1758.1097" timestamp="1597822749194" />
     <state width="1710" height="303" key="GridCell.Tab.0.center/36.23.1756.1097@36.23.1756.1097" timestamp="1597765780232" />
     <state width="1710" height="303" key="GridCell.Tab.0.center/37.23.1755.1097@37.23.1755.1097" timestamp="1597765188362" />
-    <state width="1710" height="537" key="GridCell.Tab.0.center/38.23.1754.1097@38.23.1754.1097" timestamp="1600087041177" />
+    <state width="1710" height="424" key="GridCell.Tab.0.center/38.23.1754.1097@38.23.1754.1097" timestamp="1600087976215" />
     <state width="1710" height="537" key="GridCell.Tab.0.center/39.23.1753.1097@39.23.1753.1097" timestamp="1600086679418" />
-    <state width="1710" height="373" key="GridCell.Tab.0.center/40.23.1752.1097@40.23.1752.1097" timestamp="1597896495991" />
-    <state width="1710" height="537" key="GridCell.Tab.0.left" timestamp="1600087041176">
-      <screen x="38" y="23" width="1754" height="1097" />
+    <state width="1710" height="212" key="GridCell.Tab.0.center/40.23.1752.1097@40.23.1752.1097" timestamp="1600088121744" />
+    <state width="1750" height="333" key="GridCell.Tab.0.left" timestamp="1600504949573">
+      <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state width="848" height="317" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1597915184300" />
+    <state width="1750" height="333" key="GridCell.Tab.0.left/0.23.1792.1050@0.23.1792.1050" timestamp="1600504949573" />
     <state width="1710" height="373" key="GridCell.Tab.0.left/34.23.1758.1097@34.23.1758.1097" timestamp="1597822749194" />
     <state width="1710" height="303" key="GridCell.Tab.0.left/36.23.1756.1097@36.23.1756.1097" timestamp="1597765780232" />
     <state width="1710" height="303" key="GridCell.Tab.0.left/37.23.1755.1097@37.23.1755.1097" timestamp="1597765188361" />
-    <state width="1710" height="537" key="GridCell.Tab.0.left/38.23.1754.1097@38.23.1754.1097" timestamp="1600087041176" />
+    <state width="1710" height="424" key="GridCell.Tab.0.left/38.23.1754.1097@38.23.1754.1097" timestamp="1600087976215" />
     <state width="1710" height="537" key="GridCell.Tab.0.left/39.23.1753.1097@39.23.1753.1097" timestamp="1600086679417" />
-    <state width="1710" height="373" key="GridCell.Tab.0.left/40.23.1752.1097@40.23.1752.1097" timestamp="1597896495991" />
-    <state width="1710" height="537" key="GridCell.Tab.0.right" timestamp="1600087041177">
-      <screen x="38" y="23" width="1754" height="1097" />
+    <state width="1710" height="212" key="GridCell.Tab.0.left/40.23.1752.1097@40.23.1752.1097" timestamp="1600088121743" />
+    <state width="1750" height="333" key="GridCell.Tab.0.right" timestamp="1600504949574">
+      <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state width="848" height="317" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1597915184301" />
+    <state width="1750" height="333" key="GridCell.Tab.0.right/0.23.1792.1050@0.23.1792.1050" timestamp="1600504949574" />
     <state width="1710" height="373" key="GridCell.Tab.0.right/34.23.1758.1097@34.23.1758.1097" timestamp="1597822749194" />
     <state width="1710" height="303" key="GridCell.Tab.0.right/36.23.1756.1097@36.23.1756.1097" timestamp="1597765780233" />
     <state width="1710" height="303" key="GridCell.Tab.0.right/37.23.1755.1097@37.23.1755.1097" timestamp="1597765188362" />
-    <state width="1710" height="537" key="GridCell.Tab.0.right/38.23.1754.1097@38.23.1754.1097" timestamp="1600087041177" />
+    <state width="1710" height="424" key="GridCell.Tab.0.right/38.23.1754.1097@38.23.1754.1097" timestamp="1600087976216" />
     <state width="1710" height="537" key="GridCell.Tab.0.right/39.23.1753.1097@39.23.1753.1097" timestamp="1600086679418" />
-    <state width="1710" height="373" key="GridCell.Tab.0.right/40.23.1752.1097@40.23.1752.1097" timestamp="1597896495992" />
+    <state width="1710" height="212" key="GridCell.Tab.0.right/40.23.1752.1097@40.23.1752.1097" timestamp="1600088121744" />
     <state width="1710" height="373" key="GridCell.Tab.1.bottom" timestamp="1597896495993">
       <screen x="40" y="23" width="1752" height="1097" />
     </state>
@@ -216,20 +244,21 @@
       <screen x="34" y="23" width="1758" height="1097" />
     </state>
     <state x="417" y="210" key="SettingsEditor/34.23.1758.1097@34.23.1758.1097" timestamp="1597822706363" />
-    <state x="593" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1600085351222">
-      <screen x="39" y="23" width="1753" height="1097" />
+    <state x="593" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1600088077376">
+      <screen x="40" y="23" width="1752" height="1097" />
     </state>
     <state x="566" y="389" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1597974075013" />
     <state x="593" y="404" key="com.intellij.ide.util.TipDialog/39.23.1753.1097@39.23.1753.1097" timestamp="1600085351222" />
-    <state x="593" y="404" key="com.intellij.ide.util.TipDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1597913772083" />
+    <state x="593" y="404" key="com.intellij.ide.util.TipDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1600088077376" />
     <state x="1012" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1597914638420">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="1012" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1597914638420" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonHack$anasizeWireshark.coverage" NAME="anasizeWireshark Coverage Results" MODIFIED="1600087041167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonHack$anasizeWireshark.coverage" NAME="anasizeWireshark Coverage Results" MODIFIED="1600088084747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonHack$urllib_test.coverage" NAME="urllib-test Coverage Results" MODIFIED="1597822748863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonHack$scanbanner.coverage" NAME="scanbanner Coverage Results" MODIFIED="1600504949567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonHack$blast_zip.coverage" NAME="blast_zip Coverage Results" MODIFIED="1597915184289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
